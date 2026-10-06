@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile arg="true"/>
+  <group name="General">
+    <entry name="eventsJson" type="String">
+      <label>Compromissos serializados em JSON: [{"name":"...","date":"AAAA-MM-DD"}]</label>
+      <default>[]</default>
+    </entry>
+    <entry name="warnDays" type="Int">
+      <label>Destacar em vermelho quando faltarem no máximo N dias</label>
+      <default>7</default>
+    </entry>
+    <entry name="hidePast" type="Bool">
+      <label>Ocultar compromissos que já passaram</label>
+      <default>true</default>
+    </entry>
+    <entry name="compactShowName" type="Bool">
+      <label>Mostrar o nome do compromisso quando o widget está no painel</label>
+      <default>true</default>
+    </entry>
+  </group>
+</kcfg>

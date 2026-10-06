@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "pedrohvsouza@protonmail.com"
+            }
+        ],
+        "Category": "Date and Time",
+        "Description": "Mostra quantos dias faltam para provas e outros compromissos",
+        "Icon": "chronometer",
+        "Id": "diasrestantes",
+        "License": "MIT",
+        "Name": "Dias Restantes",
+        "Version": "1.0"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
